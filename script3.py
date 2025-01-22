@@ -30,11 +30,11 @@ def teste2():
 								tempo = time.time() - tempo_ini
 								print('_' * 30)
 								print()
-								print(' Senha encontrada:', password)
+								print('Senha encontrada:', password)
 								print('-' *30)
-								print(' Tempo denexecução:', round(tempo, 2), 's')
-								#print(' Tempo de execução:', round(tempo/0.60, 2) if tempo > 1 else round(tempo, 2), 's')
-								print(' Tentativas:', count)
+								print('Tempo denexecução:', round(tempo, 2), 's')
+								#print('Tempo de execução:', round(tempo/0.60, 2) if tempo > 1 else round(tempo, 2), 's')
+								print('Tentativas:', count)
 								exit()
 
 				
