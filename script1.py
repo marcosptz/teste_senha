@@ -59,5 +59,6 @@ def gerar_senha(valores, tamanho):
 # print(l)
 
 if __name__ == '__main__':
+    print('teste')
     main(sys.argv[1:])
     # gerar_senha('abc', 3)
